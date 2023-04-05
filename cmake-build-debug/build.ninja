@@ -55,6 +55,12 @@ build CMakeFiles/lab14OP.dir/main.c.obj: C_COMPILER__lab14OP_Debug C$:/Users/1/C
   OBJECT_DIR = CMakeFiles\lab14OP.dir
   OBJECT_FILE_DIR = CMakeFiles\lab14OP.dir
 
+build CMakeFiles/lab14OP.dir/libs/data_structures/vector/vector.c.obj: C_COMPILER__lab14OP_Debug C$:/Users/1/CLionProjects/lab14OP/libs/data_structures/vector/vector.c || cmake_object_order_depends_target_lab14OP
+  DEP_FILE = CMakeFiles\lab14OP.dir\libs\data_structures\vector\vector.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\lab14OP.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab14OP.dir\libs\data_structures\vector
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target lab14OP
@@ -63,7 +69,7 @@ build CMakeFiles/lab14OP.dir/main.c.obj: C_COMPILER__lab14OP_Debug C$:/Users/1/C
 #############################################
 # Link the executable lab14OP.exe
 
-build lab14OP.exe: C_EXECUTABLE_LINKER__lab14OP_Debug CMakeFiles/lab14OP.dir/main.c.obj
+build lab14OP.exe: C_EXECUTABLE_LINKER__lab14OP_Debug CMakeFiles/lab14OP.dir/main.c.obj CMakeFiles/lab14OP.dir/libs/data_structures/vector/vector.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\lab14OP.dir
