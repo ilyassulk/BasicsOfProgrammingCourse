@@ -4,6 +4,8 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "memory.h"
+#include "stdbool.h"
+#include "assert.h"
 
 #define MAX(a, b) ((a > b)?(a):(b))
 #define MIN(a, b) ((a < b)?(a):(b))
